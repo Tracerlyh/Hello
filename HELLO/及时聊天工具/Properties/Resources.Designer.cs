@@ -73,6 +73,26 @@ namespace 及时聊天工具.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap form1bgcimage {
+            get {
+                object obj = ResourceManager.GetObject("form1bgcimage", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap toppicbox {
+            get {
+                object obj = ResourceManager.GetObject("toppicbox", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap 关闭1 {
             get {
                 object obj = ResourceManager.GetObject("关闭1", resourceCulture);
@@ -96,6 +116,26 @@ namespace 及时聊天工具.Properties {
         internal static System.Drawing.Bitmap 背景001 {
             get {
                 object obj = ResourceManager.GetObject("背景001", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 背景1 {
+            get {
+                object obj = ResourceManager.GetObject("背景1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 背景2 {
+            get {
+                object obj = ResourceManager.GetObject("背景2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

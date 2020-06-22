@@ -28,75 +28,111 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.Loginbutton = new System.Windows.Forms.Button();
+            this.Registrationbutton = new System.Windows.Forms.Button();
+            this.Id_Input = new System.Windows.Forms.TextBox();
+            this.Password_Input = new System.Windows.Forms.TextBox();
+            this.username = new System.Windows.Forms.Label();
+            this.password = new System.Windows.Forms.Label();
             this.Close_Window = new System.Windows.Forms.Button();
-            this.TOPpictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.TOPpictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // imageList1
+            // Loginbutton
             // 
-            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "关闭2.png");
-            this.imageList1.Images.SetKeyName(1, "关闭1.png");
+            this.Loginbutton.BackColor = System.Drawing.SystemColors.Control;
+            resources.ApplyResources(this.Loginbutton, "Loginbutton");
+            this.Loginbutton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Loginbutton.FlatAppearance.BorderSize = 0;
+            this.Loginbutton.ForeColor = System.Drawing.Color.Black;
+            this.Loginbutton.Name = "Loginbutton";
+            this.Loginbutton.UseVisualStyleBackColor = false;
+            this.Loginbutton.Click += new System.EventHandler(this.Loginbutton_Click);
+            // 
+            // Registrationbutton
+            // 
+            this.Registrationbutton.BackColor = System.Drawing.Color.Silver;
+            this.Registrationbutton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Registrationbutton.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.Registrationbutton, "Registrationbutton");
+            this.Registrationbutton.ForeColor = System.Drawing.Color.Black;
+            this.Registrationbutton.Name = "Registrationbutton";
+            this.Registrationbutton.UseVisualStyleBackColor = false;
+            // 
+            // Id_Input
+            // 
+            resources.ApplyResources(this.Id_Input, "Id_Input");
+            this.Id_Input.ForeColor = System.Drawing.Color.Black;
+            this.Id_Input.Name = "Id_Input";
+            // 
+            // Password_Input
+            // 
+            resources.ApplyResources(this.Password_Input, "Password_Input");
+            this.Password_Input.ForeColor = System.Drawing.Color.Black;
+            this.Password_Input.Name = "Password_Input";
+            // 
+            // username
+            // 
+            resources.ApplyResources(this.username, "username");
+            this.username.BackColor = System.Drawing.Color.Transparent;
+            this.username.ForeColor = System.Drawing.Color.White;
+            this.username.Name = "username";
+            // 
+            // password
+            // 
+            resources.ApplyResources(this.password, "password");
+            this.password.BackColor = System.Drawing.Color.Transparent;
+            this.password.ForeColor = System.Drawing.Color.White;
+            this.password.Name = "password";
             // 
             // Close_Window
             // 
-            this.Close_Window.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Close_Window.BackColor = System.Drawing.Color.Transparent;
             this.Close_Window.BackgroundImage = global::及时聊天工具.Properties.Resources.关闭2;
-            this.Close_Window.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            resources.ApplyResources(this.Close_Window, "Close_Window");
+            this.Close_Window.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Close_Window.FlatAppearance.BorderSize = 0;
             this.Close_Window.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Close_Window.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Close_Window.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Close_Window.Location = new System.Drawing.Point(458, 12);
             this.Close_Window.Name = "Close_Window";
-            this.Close_Window.Size = new System.Drawing.Size(30, 30);
-            this.Close_Window.TabIndex = 0;
             this.Close_Window.UseVisualStyleBackColor = false;
             this.Close_Window.Click += new System.EventHandler(this.Close_Window_Click);
+            this.Close_Window.MouseEnter += new System.EventHandler(this.Close_Window_MouseEnter);
             this.Close_Window.MouseLeave += new System.EventHandler(this.Close_Window_MouseLeave);
-            this.Close_Window.MouseHover += new System.EventHandler(this.Close_Window_MouseHover);
-            // 
-            // TOPpictureBox1
-            // 
-            this.TOPpictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.TOPpictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.TOPpictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.TOPpictureBox1.Name = "TOPpictureBox1";
-            this.TOPpictureBox1.Size = new System.Drawing.Size(500, 150);
-            this.TOPpictureBox1.TabIndex = 1;
-            this.TOPpictureBox1.TabStop = false;
-            this.TOPpictureBox1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.TOPpictureBox1_MouseDown);
-            this.TOPpictureBox1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.TOPpictureBox1_MouseMove);
-            this.TOPpictureBox1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.TOPpictureBox1_MouseUp);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(500, 600);
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.BackgroundImage = global::及时聊天工具.Properties.Resources.背景2;
             this.Controls.Add(this.Close_Window);
-            this.Controls.Add(this.TOPpictureBox1);
+            this.Controls.Add(this.password);
+            this.Controls.Add(this.username);
+            this.Controls.Add(this.Password_Input);
+            this.Controls.Add(this.Id_Input);
+            this.Controls.Add(this.Registrationbutton);
+            this.Controls.Add(this.Loginbutton);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
-            this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.TOPpictureBox1)).EndInit();
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseMove);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseUp);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-
+        private System.Windows.Forms.Button Loginbutton;
+        private System.Windows.Forms.Button Registrationbutton;
+        private System.Windows.Forms.TextBox Id_Input;
+        private System.Windows.Forms.TextBox Password_Input;
+        private System.Windows.Forms.Label username;
+        private System.Windows.Forms.Label password;
         private System.Windows.Forms.Button Close_Window;
-        private System.Windows.Forms.ImageList imageList1;
-        private System.Windows.Forms.PictureBox TOPpictureBox1;
     }
 }
 

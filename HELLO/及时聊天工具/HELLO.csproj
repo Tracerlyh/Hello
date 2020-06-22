@@ -57,6 +57,12 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form1.zh-CN.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.zu.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -91,6 +97,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\关闭1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toppicboxbgc.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toppicbox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\form1bgcimage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\背景1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\背景2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

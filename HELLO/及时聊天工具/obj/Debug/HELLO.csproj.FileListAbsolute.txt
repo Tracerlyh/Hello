@@ -8,3 +8,9 @@ D:\学习\桌面应用程序设计\及时聊天软件\Hello\HELLO\及时聊天�
 D:\学习\桌面应用程序设计\及时聊天软件\Hello\HELLO\及时聊天工具\obj\Debug\HELLO.csproj.CoreCompileInputs.cache
 D:\学习\桌面应用程序设计\及时聊天软件\Hello\HELLO\及时聊天工具\obj\Debug\及时聊天工具.exe
 D:\学习\桌面应用程序设计\及时聊天软件\Hello\HELLO\及时聊天工具\obj\Debug\及时聊天工具.pdb
+D:\学习\桌面应用程序设计\及时聊天软件\Hello\HELLO\及时聊天工具\bin\Debug\zh-CN\及时聊天工具.resources.dll
+D:\学习\桌面应用程序设计\及时聊天软件\Hello\HELLO\及时聊天工具\bin\Debug\zu\及时聊天工具.resources.dll
+D:\学习\桌面应用程序设计\及时聊天软件\Hello\HELLO\及时聊天工具\obj\Debug\及时聊天工具.Form1.zh-CN.resources
+D:\学习\桌面应用程序设计\及时聊天软件\Hello\HELLO\及时聊天工具\obj\Debug\及时聊天工具.Form1.zu.resources
+D:\学习\桌面应用程序设计\及时聊天软件\Hello\HELLO\及时聊天工具\obj\Debug\zh-CN\及时聊天工具.resources.dll
+D:\学习\桌面应用程序设计\及时聊天软件\Hello\HELLO\及时聊天工具\obj\Debug\zu\及时聊天工具.resources.dll
